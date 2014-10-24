@@ -21,7 +21,7 @@ my %WriteMakefileArgs = (
   "MIN_PERL_VERSION" => "5.008001",
   "NAME" => "Acme::Math::XS",
   "PREREQ_PM" => {},
-  "VERSION" => "0.0.1",
+  "VERSION" => "0.0.2",
   "test" => {
     "TESTS" => "t/*.t"
   }
