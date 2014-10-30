@@ -20,8 +20,11 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "MIN_PERL_VERSION" => "5.008001",
   "NAME" => "Acme::Math::XS",
-  "PREREQ_PM" => {},
-  "VERSION" => "0.0.2",
+  "PREREQ_PM" => {
+    "Inline" => 0,
+    "Inline::C" => 0
+  },
+  "VERSION" => "0.0.3",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -29,7 +32,9 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "ExtUtils::MakeMaker" => 0
+  "ExtUtils::MakeMaker" => 0,
+  "Inline" => 0,
+  "Inline::C" => 0
 );
 
 
