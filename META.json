@@ -34,8 +34,8 @@
       },
       "runtime" : {
          "requires" : {
-            "Inline" : "0",
-            "Inline::C" : "0",
+            "Inline" : "0.77",
+            "Inline::C" : "0.64",
             "perl" : "v5.8.1"
          }
       }
@@ -52,6 +52,6 @@
          "web" : "https://github.com/ingydotnet/acme-math-xs-pm"
       }
    },
-   "version" : "0.0.3"
+   "version" : "0.0.4"
 }
 

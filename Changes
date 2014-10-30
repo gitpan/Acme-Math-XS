@@ -1,3 +1,6 @@
+0.0.4 Thu Oct 30 20:28:22 UTC 2014
+ - Require latest Inline and Inline::C
+
 0.0.3 Thu Oct 30 19:07:43 UTC 2014
  - Require Inline and Inline::C as prereqs for now
  - Fix cpantesters failures
