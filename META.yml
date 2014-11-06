@@ -2,11 +2,12 @@
 abstract: 'Math is HARD (faster)'
 author:
   - 'Ingy döt Net <ingy@cpan.org>'
-build_requires: {}
+build_requires:
+  ExtUtils::MakeMaker: '0'
 configure_requires:
   ExtUtils::MakeMaker: '0'
-dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.021, CPAN::Meta::Converter version 2.142690'
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 7, CPAN::Meta::Converter version 2.142690'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -14,16 +15,8 @@ meta-spec:
 name: Acme-Math-XS
 no_index:
   directory:
-    - inc
     - t
-    - xt
-    - example
+    - inc
 requires:
-  Inline: '0.77'
-  Inline::C: '0.64'
-  perl: v5.8.1
-resources:
-  bugtracker: https://github.com/ingydotnet/acme-math-xs-pm/issues
-  homepage: https://github.com/ingydotnet/acme-math-xs-pm
-  repository: https://github.com/ingydotnet/acme-math-xs-pm.git
-version: 0.0.5
+  perl: '5.008001'
+version: v0.0.6
