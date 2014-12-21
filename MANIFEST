@@ -1,15 +1,8 @@
-.travis.yml
 Changes
 lib/Acme/Math/XS.pm
 lib/Acme/Math/XS.pod
 Makefile.PL
 MANIFEST			This list of files
-master/About.pod
-master/doc/About.swim
-master/doc/Acme/Math/XS.swim
-master/lib/Acme/Math/XS.pm
-master/ReadMe.pod
-master/test/test.t
 README
 t/test.t
 XS.xs
